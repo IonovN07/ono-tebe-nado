@@ -18,6 +18,9 @@
     color: #000;
     font-size: 18px;
     letter-spacing: 0.01em;
+}
+
+.header__links-list-item {
     list-style: circle;
 }
 
@@ -28,6 +31,10 @@
 .header__link {
     border-bottom: 1px solid;
     text-decoration: none;
+}
+
+.header__link_active {
+    border-bottom: none;
 }
 
 .header__logo {
@@ -47,8 +54,7 @@
     font-family: Raleway, sans-serif;
     font-size: 18px;
     line-height: 1.35em;
-    
-}git
+}
 
 .header__address {
     justify-self: end;
@@ -71,7 +77,6 @@
     background-image: url(../images/cover.jpg);
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
     background-size: cover;
 }
 
@@ -170,6 +175,7 @@
 }
 
 .lots__card-list-item {
+    position: relative;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -179,7 +185,6 @@
 }
 
 .card-link {
-    position: relative;
     height: 100%;
     text-decoration: none;
 }
@@ -312,13 +317,13 @@
     text-align: center;
 }
 
-.header__link_active {
-    text-decoration: none;
-}
-
 .footer__menu-link {
     border-bottom: 1px solid #000;
     text-decoration: none;
+}
+
+.header__link_active {
+    border-bottom: none;
 }
 
 .footer__social-list {
