@@ -42,12 +42,13 @@
 }
 
 .address {
+    all:initial;
     width: 240px;
     font-family: Raleway, sans-serif;
     font-size: 18px;
     line-height: 1.35em;
-    all:initial;
-}
+    
+}git
 
 .header__address {
     justify-self: end;
@@ -294,7 +295,7 @@
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 180px 50px 88px;
+    padding: 181px 50px 88px;
 }
 
 .footer__menu {
