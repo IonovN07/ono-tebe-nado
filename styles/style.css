@@ -1,3 +1,19 @@
+/* GENERAL */
+
+.address {
+    all:initial;
+    width: 240px;
+    font-family: Raleway, sans-serif;
+    font-size: 18px;
+    line-height: 1.35em;
+}
+
+.address__link {
+    border-bottom: 1px solid;
+    letter-spacing: 0.01em;
+    text-decoration: none;
+}
+
 /* HEADER */
 
 .header {
@@ -48,24 +64,12 @@
     height: 100%;
 }
 
-.address {
-    all:initial;
-    width: 240px;
-    font-family: Raleway, sans-serif;
-    font-size: 18px;
-    line-height: 1.35em;
-}
 
 .header__address {
     justify-self: end;
     padding: 6px 25px 0 0;
 }
 
-.address__link {
-    border-bottom: 1px solid;
-    letter-spacing: 0.01em;
-    text-decoration: none;
-}
 
 /* COVER */
 
@@ -231,10 +235,6 @@
     line-height: 120%;
 }
 
-.card-letter-spacing-extended {
-    letter-spacing: 0.13em;
-}
-
 .lots__look-more-link { 
     margin-left: 40px;
     border-bottom: 1px solid #000;
@@ -269,7 +269,6 @@
 }
 
 .about__logo-image {
-    display: flex;
     width: 148px;
 }
 
@@ -289,10 +288,6 @@
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.2px;
-  }
-
-  .about__letter-spacing-extended {
-    letter-spacing: -0.1px;
   }
 
 /* FOOTER */
